@@ -27,6 +27,6 @@ if __name__ == '__main__':
     botao_pressionado.apertar()
 
     desligar_tv = ComandoDesligarTV(dispositivo=tv)
-    botao_pressionado = BotaoDispositivo(comando=ligar_tv)
+    botao_pressionado = BotaoDispositivo(comando=desligar_tv)
     botao_pressionado.apertar()
 
